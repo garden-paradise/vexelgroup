@@ -1,0 +1,14 @@
+.newsMiddleComp {
+  object-fit: contain;
+  .newsMiddleComp_title {
+    margin: 30px 0 20px;
+  }
+  .newsMiddleComp_subtitle {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 1.3em;
+    height: 5.1em;
+  }
+}

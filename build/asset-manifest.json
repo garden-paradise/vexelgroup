@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5bf95692.css",
+    "main.js": "/static/js/main.d458b16c.js",
+    "static/js/787.83c903f6.chunk.js": "/static/js/787.83c903f6.chunk.js",
+    "static/media/DelaGothicOne-Regular.ttf": "/static/media/DelaGothicOne-Regular.49d69206ea0feeabb0d4.ttf",
+    "static/media/biznes.png": "/static/media/biznes.646fb4572686eec12b89.png",
+    "static/media/aboutUs.png": "/static/media/aboutUs.bb435529cf7dcdca2450.png",
+    "static/media/contacts.png": "/static/media/contacts.f6965e80373f3d74fa41.png",
+    "static/media/about.png": "/static/media/about.8bfaa2f89c2300314c3f.png",
+    "static/media/press.png": "/static/media/press.2db90fc88df99d9f4b50.png",
+    "static/media/fon.png": "/static/media/fon.bb9045cb2d6c28caee0c.png",
+    "static/media/year.png": "/static/media/year.dbca25f86a7a5bc421dd.png",
+    "static/media/biznesTel.png": "/static/media/biznesTel.e5e4139c06110fbf4076.png",
+    "static/media/aboutUsTel.png": "/static/media/aboutUsTel.8a55ba39d1ce42d38a67.png",
+    "static/media/pressTel.png": "/static/media/pressTel.0e74dd14f5c66c3a8a12.png",
+    "static/media/yearTel.png": "/static/media/yearTel.8f97747d8059613eb6bd.png",
+    "static/media/aboutTel.png": "/static/media/aboutTel.6dcfa5e22f3e3a2ddc35.png",
+    "static/media/contactsTel.png": "/static/media/contactsTel.15a77f71f04c80a0cb64.png",
+    "static/media/fonTel.png": "/static/media/fonTel.153f2d68ac272871148d.png",
+    "static/media/Aeroport-Medium.ttf": "/static/media/Aeroport-Medium.9f52323cfa5e5ec055e8.ttf",
+    "static/media/Aeroport.ttf": "/static/media/Aeroport.83a9737aed9710dc489e.ttf",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logoTel.svg": "/static/media/logoTel.d61c6e536d72eba92c6e6c55b9ce2f31.svg",
+    "index.html": "/index.html",
+    "main.5bf95692.css.map": "/static/css/main.5bf95692.css.map",
+    "main.d458b16c.js.map": "/static/js/main.d458b16c.js.map",
+    "787.83c903f6.chunk.js.map": "/static/js/787.83c903f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bf95692.css",
+    "static/js/main.d458b16c.js"
+  ]
+}

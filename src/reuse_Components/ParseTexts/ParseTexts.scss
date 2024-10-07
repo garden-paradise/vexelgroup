@@ -1,0 +1,17 @@
+.parseTexts {
+  line-height: 40px;
+  &-marker {
+    margin-left: 20px;
+  }
+  &-title {
+    margin: 30px 0;
+  }
+  &-regular {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 480px) {
+  .parseTexts {
+    line-height: 20px;
+  }
+}

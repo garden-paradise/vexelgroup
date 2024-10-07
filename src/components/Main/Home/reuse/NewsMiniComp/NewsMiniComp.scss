@@ -1,0 +1,116 @@
+.newsMiniComp {
+  display: flex;
+  justify-content: space-between;
+  &:not(:last-child) {
+    margin-bottom: 27px;
+  }
+  .newsMiniComp_info {
+    padding-left: 30px;
+    .newsMiniComp_subtitle {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      line-height: 1.3em;
+      height: 3.9em;
+      font-size: 24px;
+      min-width: 80%;
+      font-family: Arial, sans-serif;
+    }
+    .newsMiniComp_btn {
+      font-weight: 700;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      text-decoration: none;
+      color: #a30f24;
+    }
+  }
+
+  .arrow-2 {
+    color: #a10f23;
+    position: relative;
+    margin-bottom: 4px;
+    margin-left: 10px;
+  }
+  .arrow-2 div {
+    position: relative;
+    top: 3px;
+    width: 54px;
+    height: 2px;
+    left: 0;
+    display: block;
+    color: #a10f23;
+    background: #a10f23;
+  }
+  .arrow-2 div::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: -3px;
+    right: -1px;
+    background: #a10f23;
+    color: #a10f23;
+    transform: rotate(45deg);
+  }
+  .arrow-2 div::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: 3px;
+    right: -1px;
+    background: #a10f23;
+    color: #a10f23;
+    transform: rotate(-45deg);
+  }
+}
+
+@media (max-width: 550px) {
+  .newsMiniComp {
+    flex-direction: column;
+    .newsMiniComp_img {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .newsMiniComp_info {
+      padding: 20px 0 0;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .newsMiniComp {
+    .newsMiniComp_info {
+      .newsMiniComp_subtitle {
+        font-size: 12px;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        line-height: 1.3em;
+        height: 5em;
+      }
+      .newsMiniComp_btn {
+        margin-top: 15px;
+        font-size: 10px;
+      }
+    }
+    .arrow-2 div {
+      top: 3px;
+      width: 30px;
+      height: 1.5px;
+    }
+    .arrow-2 div::after {
+      width: 5px;
+      height: 1.5px;
+      top: -2px;
+      right: 0;
+    }
+    .arrow-2 div::before {
+      width: 5px;
+      height: 1.5px;
+      top: 2.4px;
+      right: 0;
+    }
+  }
+}

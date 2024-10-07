@@ -1,0 +1,130 @@
+.report {
+  .report_board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 850px));
+    grid-gap: 30px 20px;
+  }
+  &-backdrop {
+    position: fixed;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: 2;
+  }
+  &-formBlock {
+    max-width: 645px;
+    height: 500px;
+    padding: 0 20px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  &-formDelete {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  &-formDelete:hover {
+    color: #e5344e;
+    transition: 0.4s;
+  }
+  &-formTitle {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 8vw;
+    text-align: center;
+  }
+  &-formGrid {
+    display: grid;
+    grid-template-areas:
+      'left right'
+      'down down';
+    grid-template-rows: repeat(2, 60px);
+    grid-template-columns: 230px 230px;
+    grid-gap: 30px 50px;
+  }
+  &-form {
+    border: 0.5px solid #7c7c7c;
+  }
+  &-formFIO {
+    grid-area: left;
+  }
+  &-formPhone {
+    grid-area: right;
+  }
+  &-formEmailDiv {
+    grid-area: down;
+  }
+  &-formEmail {
+    width: 100%;
+    height: 100%;
+  }
+  &-error {
+    text-align: center;
+    color: #e5344e;
+    margin-top: 20px;
+  }
+  &-formBtn {
+    width: 230px;
+    height: 60px;
+    background-color: #e5344e;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+  }
+  &-formError {
+    border: 2px solid #e5344e;
+  }
+}
+
+@media (min-width: 1720px) {
+  .report {
+    &-formTitle {
+      margin: 0 40px;
+    }
+  }
+}
+@media (max-width: 580px) {
+  .report {
+    &-formBlock {
+      height: 400px;
+    }
+    &-formGrid {
+      grid-template-areas:
+        'left '
+        'right '
+        'down ';
+      grid-template-rows: repeat(3, 40px);
+      grid-template-columns: 80vw;
+      grid-gap: 12px;
+    }
+    &-formTitle {
+      font-size: 14px;
+      margin-top: 30px;
+    }
+    &-formBtn {
+      width: 200px;
+      height: 50px;
+      font-size: 16px;
+    }
+    &-error {
+      margin-top: 10px;
+    }
+  }
+}

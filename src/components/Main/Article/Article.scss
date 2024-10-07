@@ -1,0 +1,33 @@
+.article_sec {
+  display: flex;
+  .div {
+    min-height: 40px;
+  }
+  .article_aspectRatio {
+    max-width: 725px;
+    height: 30%;
+  }
+  .article_block {
+    max-width: 800px;
+    margin: 50px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .article_sec {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1000px) {
+  .article_sec {
+    flex-direction: column;
+    .article_block {
+      margin: 0;
+    }
+  }
+  // .article_aspectRatio {
+  //   max-width: 725px;
+  //   height: 60vw;
+  // }
+}

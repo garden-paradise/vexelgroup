@@ -1,0 +1,109 @@
+.business {
+  font-family: Arial, sans-serif;
+  &-title {
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    margin-bottom: 94px;
+    display: inline-block;
+  }
+  &-sec {
+    display: flex;
+  }
+  &-menuItem {
+    background-color: #dd1f3b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    height: 80px;
+    cursor: pointer;
+    font-size: 24px;
+    width: 290px;
+    margin-bottom: 3px;
+  }
+  &-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &-info {
+    width: 800px;
+    padding: 0 20px 0 50px;
+  }
+  &-infoTitle {
+    font-size: 42px;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 42px;
+  }
+  &-infoSubtitle {
+    margin-bottom: 78px;
+  }
+  &-infoContacts {
+    font-size: 32px;
+  }
+  &-infoPhone {
+    display: flex;
+  }
+  &-infoPhoneBlock {
+    margin-left: 9px;
+  }
+  &-infoEmail {
+    margin: 20px 0;
+  }
+  &-infoSite,
+  &-phone {
+    text-decoration: none;
+    color: black;
+  }
+  &-btn {
+    text-decoration: none;
+  }
+}
+@media (max-width: 1200px) {
+  .business {
+    &-sec {
+      flex-direction: column;
+    }
+    &-menu {
+      margin-bottom: 50px;
+    }
+    &-menuItem {
+      width: 100%;
+    }
+    &-img {
+      margin: 0 auto;
+      padding-bottom: 30px;
+    }
+    &-info {
+      width: 100%;
+      padding: 0;
+    }
+    &-block {
+      flex-direction: column-reverse;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .business {
+    &-title {
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+    &-infoTitle {
+      font-size: 24px;
+    }
+    &-menuItem {
+      font-size: 18px;
+      height: 60px;
+    }
+    &-infoContacts {
+      font-size: 16px;
+    }
+    &-infoSubtitle {
+      margin-bottom: 20px;
+    }
+  }
+}

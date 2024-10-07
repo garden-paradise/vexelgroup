@@ -1,0 +1,37 @@
+.NavigLinkFooter {
+  .NavigLinkFooter_ul {
+    display: flex;
+  }
+  .NavigLinkFooter_li {
+    list-style-type: none;
+  }
+  .NavigLinkFooter_li:not(:last-child) {
+    margin-right: 76px;
+  }
+  .NavigLinkFooter_link {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media (max-width: 1250px) {
+  .NavigLinkFooter {
+    .NavigLinkFooter_ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .NavigLinkFooter_li {
+      margin-bottom: 32px;
+    }
+    .NavigLinkFooter_li:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .NavigLinkFooter {
+    .NavigLinkFooter_li {
+      margin-bottom: 18px;
+    }
+  }
+}

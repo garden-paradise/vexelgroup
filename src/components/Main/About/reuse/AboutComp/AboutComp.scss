@@ -1,0 +1,46 @@
+.aboutCompLink {
+  text-decoration: none;
+  color: black;
+  .aboutComp {
+    height: 670px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    text-align: center;
+    background: #f5f5f5;
+    cursor: pointer;
+    transition: 1s;
+    .aboutComp_title {
+      margin: 40px 70px 20px;
+    }
+    .aboutComp_subtitle {
+      font-size: 20px;
+    }
+
+    .AspectRatio {
+      max-width: 560px;
+      height: 470px;
+    }
+    .aboutComp_img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 0 0;
+      // object-position: center center;
+
+      border-radius: 20px 20px 0 0;
+    }
+  }
+}
+.aboutComp:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 480px) {
+  .aboutCompLink {
+    .aboutComp {
+      .aboutComp_img {
+        object-position: center center;
+      }
+    }
+  }
+}

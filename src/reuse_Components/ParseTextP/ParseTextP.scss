@@ -1,0 +1,9 @@
+.parseTextP {
+  min-height: 40px;
+}
+
+@media (max-width: 480px) {
+  .parseTextP {
+    min-height: 20px;
+  }
+}
